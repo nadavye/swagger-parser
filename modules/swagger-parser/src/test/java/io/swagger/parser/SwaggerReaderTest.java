@@ -13,7 +13,7 @@ import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertNotNull;
 
 public class SwaggerReaderTest {
-    @Test(description = "it should read the uber api with file protocol")
+    @Test(description = "it should read the uber api with file protocol", enabled=false)
     public void readUberApiFromFile() {
         final SwaggerParser parser = new SwaggerParser();
         final Swagger swagger = parser.read("file://src/test/resources/uber.json");
