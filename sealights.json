@@ -1,0 +1,9 @@
+{
+	"server": "https://dev-java-gw.sealights.co/api",
+	"interval": 10000,
+	"enabled": true,
+	"customerId": "Swagger",
+	"javaHome": "c:\\progra~1\\java\\jdk1.8.0_66",
+	"jar": "java-build-agent-1.0.0-SNAPSHOT-jar-with-dependencies.jar",
+	"javaClassPrefix": "io/swagger"
+}

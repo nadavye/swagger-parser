@@ -1,0 +1,18 @@
+<aspectj>
+	<aspects>
+		<aspect name="io.sealights.onpremise.agents.java.agent.core.aspects.CodeCoverageAspect"/> 
+		<aspect name="io.sealights.onpremise.agents.java.agent.core.aspects.HttpConnectionAspect"/>
+		<aspect name="io.sealights.onpremise.agents.java.agent.core.aspects.HttpObjectDecoderAspect"/>
+		<aspect name="io.sealights.onpremise.agents.java.agent.core.aspects.JerseyServerRuntimeAspect"/>
+	</aspects>
+    
+    <weaver>
+     	<include within="io.swagger..*"/> 
+    	
+    	<!-- ====================================================== -->
+    	<!-- External framework that we want to weave  -->
+    	<!-- ====================================================== -->
+    	<include within="io.netty..*"/>
+    	<include within="org.glassfish.jersey.server..*"/>
+	</weaver>
+</aspectj>

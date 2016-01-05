@@ -1,0 +1,22 @@
+{
+  "name": "swagger-parser",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.org/swagger-api/swagger-parser.png)](https://travis-ci.org/swagger-api/swagger-parser) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.swagger/swagger-parser-project/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/io.swagger/swagger-parser-project)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nadavye/swagger-parser.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nadavye/swagger-parser/issues"
+  },
+  "homepage": "https://github.com/nadavye/swagger-parser#readme",
+  "dependencies": {},
+  "devDependencies": {}
+}

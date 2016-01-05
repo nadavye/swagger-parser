@@ -1,0 +1,12 @@
+{
+	"customerId": "Swagger",
+	"appName": "Swagger-Parser",
+	"server": "https://dev-java-gw.sealights.co/api",
+	"interval": 20000,
+	"enabled": true,
+	"environmentName": "Swagger Comp ENV",
+	"maxQueueSize": 1,
+	"instrumentedPackages":["io.swagger"]
+}
+
+

@@ -9,3 +9,8 @@ target/
 .project
 .settings/
 modules/swagger-parser/src/test/resources/relative-file-references/yaml
+
+node_modules/
+*.exe
+*.jar
+mapping-*.json
