@@ -14,6 +14,11 @@ public class ResourceListing extends SwaggerBaseModel {
     private List<ApiListingReference> apis = new ArrayList<>();
     private Map<String, Authorization> authorizations = new HashMap<>();
     private ApiInfo info = null;
+    private ApiInfo myInfo = null;
+    
+    public ResourceListing(){
+    	myInfo = new ApiInfo();
+    }
 
     public SwaggerVersion getSwaggerVersion() {
         return swaggerVersion;
@@ -53,6 +58,7 @@ public class ResourceListing extends SwaggerBaseModel {
 
     public void setInfo(ApiInfo info) {
         this.info = info;
+        this.myInfo = info;
     }
 
     @Override
