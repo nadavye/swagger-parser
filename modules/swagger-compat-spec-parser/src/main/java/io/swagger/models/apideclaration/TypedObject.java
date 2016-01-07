@@ -17,7 +17,7 @@ public abstract class TypedObject extends SwaggerBaseModel {
     }
 
     public void setType(String type) {
-        this.type = type;
+        this.type = type; //Nadav 
     }
 
     @JsonProperty("$ref")
