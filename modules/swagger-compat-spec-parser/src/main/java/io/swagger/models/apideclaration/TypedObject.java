@@ -36,4 +36,8 @@ public abstract class TypedObject extends SwaggerBaseModel {
     public void setFormat(Format format) {
         this.format = format;
     }
+	
+	public void myQH(){
+		
+	}
 }
